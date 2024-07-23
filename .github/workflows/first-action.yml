@@ -9,6 +9,13 @@ jobs:
       - name: Print goodbye
         run: echo "And Goodbye"
 
+      # or
+
+      - name: Print both
+        run: |
+          echo "Hello"
+          echo "Goodbye"
+
 
 
 
